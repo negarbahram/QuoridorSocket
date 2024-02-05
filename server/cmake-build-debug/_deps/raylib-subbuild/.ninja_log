@@ -1,0 +1,21 @@
+# ninja log v5
+0	11	1707155609680826248	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	393c964c4a1a97ad
+0	11	1707155609680826248	/Users/apple/Documents/uni_sem1/project/QuoridorSocket/server/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	393c964c4a1a97ad
+11	10074	1707155619743849976	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	27c9d747f12e562f
+11	10074	1707155619743849976	/Users/apple/Documents/uni_sem1/project/QuoridorSocket/server/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	27c9d747f12e562f
+10074	10086	1707155619755950119	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	4c03ac8524f683e
+10074	10086	1707155619755950119	/Users/apple/Documents/uni_sem1/project/QuoridorSocket/server/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	4c03ac8524f683e
+10086	10097	1707155619766695468	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	ff8b5223e86685a7
+10086	10097	1707155619766695468	/Users/apple/Documents/uni_sem1/project/QuoridorSocket/server/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	ff8b5223e86685a7
+10097	10106	1707155619776497941	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	f6b3de5993e56ee3
+10097	10106	1707155619776497941	/Users/apple/Documents/uni_sem1/project/QuoridorSocket/server/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	f6b3de5993e56ee3
+10106	10116	1707155619786023664	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	6d4165c2ff60b965
+10106	10116	1707155619786023664	/Users/apple/Documents/uni_sem1/project/QuoridorSocket/server/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	6d4165c2ff60b965
+10116	10126	1707155619795927928	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	f1585be62305a86a
+10116	10126	1707155619795927928	/Users/apple/Documents/uni_sem1/project/QuoridorSocket/server/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	f1585be62305a86a
+10126	10137	1707155619807250987	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	905bafc7a14e1255
+10126	10137	1707155619807250987	/Users/apple/Documents/uni_sem1/project/QuoridorSocket/server/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	905bafc7a14e1255
+10137	10151	1707155619821446508	CMakeFiles/raylib-populate-complete	95718fcfdf62c9a1
+10137	10151	1707155619821446508	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	95718fcfdf62c9a1
+10137	10151	1707155619821446508	/Users/apple/Documents/uni_sem1/project/QuoridorSocket/server/cmake-build-debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete	95718fcfdf62c9a1
+10137	10151	1707155619821446508	/Users/apple/Documents/uni_sem1/project/QuoridorSocket/server/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	95718fcfdf62c9a1

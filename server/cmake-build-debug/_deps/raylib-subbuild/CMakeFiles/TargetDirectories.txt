@@ -1,0 +1,3 @@
+/Users/apple/Documents/uni_sem1/project/QuoridorSocket/server/cmake-build-debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate.dir
+/Users/apple/Documents/uni_sem1/project/QuoridorSocket/server/cmake-build-debug/_deps/raylib-subbuild/CMakeFiles/edit_cache.dir
+/Users/apple/Documents/uni_sem1/project/QuoridorSocket/server/cmake-build-debug/_deps/raylib-subbuild/CMakeFiles/rebuild_cache.dir
