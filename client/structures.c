@@ -46,6 +46,8 @@ struct game {
 
     Vector2 wallStartPoint;
     Vector2 wallEndPoint;
+
+    int ending;
 };
 
 struct stringInStartingScreen {

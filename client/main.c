@@ -47,7 +47,7 @@ int main() {
 
     // done with the socket! ------------------------------
 
-    getStartingData();
+    getStartingData(); CloseWindow();
 
     theGame(); CloseWindow();
     ending();

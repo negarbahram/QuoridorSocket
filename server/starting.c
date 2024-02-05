@@ -25,6 +25,9 @@ void getStarted() {
     gameState.playerType[0] = human; // first player is always a human
     gameState.playerType[1] = human; // in this case, second player is human
 
+    gameState.wallStartPoint.x = 50, gameState.wallStartPoint.y = 100;
+    gameState.wallEndPoint.x = 50, gameState.wallEndPoint.y = 100;
+    
     setWallaroundTheBoard();
 
 }

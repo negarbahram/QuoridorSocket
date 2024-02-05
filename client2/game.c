@@ -9,13 +9,15 @@ void theGame() {
 
     SetTargetFPS(10);
 
+    read(networkSocket, &gameState, sizeof(gameState));
+
     while (!WindowShouldClose()) {
 
         // update ----------------------------------------
 
         read(networkSocket, &gameState, sizeof(gameState));
 
-        if (whoWins())  // if the game has ended, no input values are allowed
+        if (gameState.ending == 5)
             return;
 
         int player = gameState.turnSw;

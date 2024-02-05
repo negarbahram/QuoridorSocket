@@ -1,6 +1,11 @@
 
 void theGame() {
 
+    gameState.ending = 1;
+
+    write(client[0], &gameState, sizeof(gameState));
+    write(client[1], &gameState, sizeof(gameState));
+
     while (1) {
 
         // update ----------------------------------------
@@ -8,12 +13,19 @@ void theGame() {
         write(client[0], &gameState, sizeof(gameState));
         write(client[1], &gameState, sizeof(gameState));
 
-        if (whoWins()) // if the game has ended, no input values are allowed
+        printf("1 : %d %d\n", gameState.playerPos[0].x, gameState.playerPos[0].y);
+        printf("2 : %d %d\n", gameState.playerPos[1].x, gameState.playerPos[1].y);
+
+        if (whoWins()) {// if the game has ended, no input values are allowed
+            gameState.ending = 5;
             return;
+        }
 
         int player = gameState.turnSw;
 
         read(client[player], &nextMove, sizeof(nextMove));
+
+        printf("**** %c\n", nextMove);
 
         switch (nextMove) {
             case ' ': // player wants to put a wall on the board

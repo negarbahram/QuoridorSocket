@@ -6,15 +6,6 @@ int whoWins() {
     if (!gameState.playerPos[1].y)
         return 2;
 
-    if (gameState.playerCount == 4) {
-
-        if (gameState.playerPos[2].x == gameState.size - 1)
-            return 3;
-
-        if (!gameState.playerPos[3].x)
-            return 4;
-    }
-
     return 0;
 }
 

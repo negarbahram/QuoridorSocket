@@ -67,6 +67,11 @@ int main() {
 
     theGame();
 
+    while (1){
+        write(client[0], &gameState, sizeof(gameState));
+        write(client[1], &gameState, sizeof(gameState));
+    }
+
     return 0;
 }
 
